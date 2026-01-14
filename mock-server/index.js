@@ -48,22 +48,22 @@ const eventStore = {
       details: 'This is the first event'
     },
     "event-2": {
-      id: 1,
+      id: 2,
       name: 'Event 2',
       userId: 2,
-      details: 'This is the first event'
+      details: 'This is the second event'
     },
     "event-3": {
-      id: 1,
-      name: 'Event 1',
+      id: 3,
+      name: 'Event 3',
       userId: 1,
-      details: 'This is the first event'
+      details: 'This is the third event'
     },
     "event-4": {
-      id: 1,
+      id: 4,
       name: 'Event 4',
       userId: 3,
-      details: 'This is the first event'
+      details: 'This is the fourth event'
     }
   },
   addEvent(event) {
