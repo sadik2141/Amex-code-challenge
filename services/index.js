@@ -21,7 +21,7 @@ fastify.post('/addEvent', async (request, reply) => {
       return reply.status(503).send({
         statusCode: 503,
         error: 'Service Unavailable',
-        message: 'Service is temporarily down. Unable to add event. Please try again later. sadik'
+        message: 'Service is temporarily down. Unable to add event. Please try again later.'
       });
     }
 
