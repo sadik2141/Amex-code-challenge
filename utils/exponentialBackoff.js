@@ -5,7 +5,7 @@ class ExponentialBackoff {
    * @param {number} maxAttempts - Maximum number of retry attempts (default: 3)
    * @param {number} baseDelay - Initial delay in milliseconds (default: 1000)
    */
-  constructor(maxAttempts = 5, baseDelay = 2000) {
+  constructor(maxAttempts = 3, baseDelay = 2000) {
     this.maxAttempts = maxAttempts;
     this.baseDelay = baseDelay;
   }
